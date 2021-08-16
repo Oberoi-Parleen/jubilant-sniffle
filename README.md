@@ -1,40 +1,37 @@
-# jubilant-sniffle
-An easy to use bank website, using python and Django!
+# CentralBank
 
-Central Bank-master
+This is a Banking web-app I created as a part of my Engineering curriculum.
 
-A bank website as my project, while I am graduating in Computer Science engineering.
+## Features
+<li> Create new account and get a unique account number on sign-in.
+<li> Store and edit your details.
+<li> Transfer (fictitious) money from one bank account to another.
 
-What can you do?
+## Demo
+![](https://raw.githubusercontent.com/rafi007akhtar/CentralBank/master/media/demo.gif)
 
-Create your new bank account and get a unique account number as you sign-in.
-You can store and edit your info
-Transfer  money (not real) from one bank account to another.
+## Prerequisites
+1. A Terminal (preferred) or a CMD
+2. Python 3.4 or above installed. (Windows users might need to [add it to path](https://superuser.com/questions/143119/how-do-i-add-python-to-the-windows-path).)
+3. Django framework 1.8 or above installed and working.
 
-What do you need?
--Command Prompt
--Python 3.4 or above, installed and running. For Windows, ensure its added to the path.
--Django 1.8 or above, installed and working.
+## Installation
+1. Open a Terminal, and clone the current repository.
+    ```
+    git clone https://github.com/rafi007akhtar/CentralBank.git
+    ```
+2. Enter the root directory.
+    ```
+    cd CentralBank
+    ```
 
-Installation: 
-[proj.zip (Unzipped Files)-20210807T063432Z-001.zip](https://github.com/Oberoi-Parleen/jubilant-sniffle/files/6986737/proj.zip.Unzipped.Files.-20210807T063432Z-001.zip)
+3. Now start the setup by entering the following command.
+    ```
+    python manage.py runserver
+    ```
+    If that didn't work, try replacing `python` by `python3` in the above command.
 
-Download and unzip the repository shared above.
+4. Follow the <a href="#demo">Demo</a> section and use the app as you like.
 
-Open Anaconda command prompt and type
-cd CentralBank-master (and then add the address of the saved file)
-
-
-Type pip install Django==2.0
-
-Run by typing
-
-python manage.py runserver
-
-If that didn't work, try replacing python by python3 in the above command.
-
-Type localhost:8000 in your browser and voila!
-
-
-Disclaimer
-This app is a skeletal bank website . All transactions, account numbers and information are fictious.
+### Disclaimer
+This app represents a  fictitious bank. All transactions, account numbers and account holdings are unreal.
